@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+html {
+    background-color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    margin-right: 15px;
+}
+
+button {
+    background: #fc8f24;
+    text-align: center;
+    border: 1px solid #fc8f24;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 51px;
+    padding: 9px 24px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: white;
+    color: #fc8f24;
+    border-radius: 51px;
+}
+
+#under {
+    margin-top: 15px;
+}
+
+#under button {
+    background-color: gray;
+    border: 1px solid black;
+    transition: none;
+}
+
+#under button:hover {
+    background-color: #90ee91;
+    color:white;
+    background-blend-mode: color;
+}
+
+#under .active {
+    background-color: #95f985;
+}
+
+#under button:active {
+    background-color: black;
+}
+
+#container .questionList {
+    padding-left: 20px;
+}
+
+#container .inner {
+    margin: 16px 0px 16px 0px;
+}
+
+#container .inner p {
+    font-weight: bold;
+}
+
+#container .inner select { 
+    transition: all 0.2s;
+}
+
+#container .inner select:hover {
+    background-color: aliceblue;
+}
+
+#container .inner .leftForm{
+    width: 3em;
+    margin-right: 15px;
+    padding-left: 3px;
+    border-radius: 10%;
+}
+
+#container .inner .rightForm{
+    padding-left: 10px;
+}
+
+#container .inner #submit {
+    border-top: 30px;
+}
+
+.inner {
+    display: flex;
+}
