@@ -17,6 +17,7 @@ A mix-and-match style program with a randomizable order of questions. Clicking _
 
 ### Grading
 Grading in this program works differently and provides partial credit. Partial credit comes from a sequence-like system that can be better explained [here](https://moodle.org/mod/forum/discuss.php?d=378830).
+
 **Disclaimer**: The grading system in the prototype is not a 1 on 1 match with the concept explained in the forum. The difference is that an element can be in the right spot, but it won't get 100% unless all of the elements before it are there and same for after.
 
 
