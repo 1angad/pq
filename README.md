@@ -7,7 +7,7 @@ A mix-and-match style program with a randomizable order of questions. Clicking _
 1. Number Order
    - Assign the number to the item in the correct order.
 2. Item Order
-   - Order the items according to the step listed.
+   - Assign the item according to the number listed.
 
 ### Features
 1. Shuffle Questions
